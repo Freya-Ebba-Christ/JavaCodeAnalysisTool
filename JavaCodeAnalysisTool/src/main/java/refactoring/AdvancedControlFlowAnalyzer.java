@@ -1,4 +1,5 @@
 package refactoring;
+
 /*
  * Application.java
  *
@@ -191,6 +192,12 @@ public class AdvancedControlFlowAnalyzer extends VoidVisitorAdapter<Void> {
                 String loopIndexVariable = extractLoopIndexVariable(n);
                 analyzeBinaryExpression(compare.asBinaryExpr(), loopIndexVariable);
             }
+        }
+
+        // Added check for array or collection iteration
+        if (isArrayOrCollectionIteration(n)) {
+            System.out.println("Recommendation: Consider using a for-each loop for array/collection iteration for better readability and less error-prone code.");
+            System.out.println(n);
         }
     }
 
@@ -408,5 +415,5 @@ public class AdvancedControlFlowAnalyzer extends VoidVisitorAdapter<Void> {
         }
         // Consider non-block bodies (e.g., single statements) as non-empty.
         return false;
-   }
+    }
 }
