@@ -6,5 +6,7 @@ The fight with the dragon has just begun... (https://en.wikipedia.org/wiki/Compi
 <br>
 Note: I will eventually merge all currently existing repositories involving code analysis, debugging, and refactoring into one comprehensive suite.
 <br>
-<b>IMPORTANT:</b> It will take a while until the code is usable! E.g. the automatic refactoring using the captured logic of null checks is still missing!
+<b>IMPORTANT:</b> It will take a while until the code is usable!
+<br>
+E.g. the automatic refactoring using the captured logic of null checks is still missing!
 
