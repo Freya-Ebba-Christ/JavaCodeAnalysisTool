@@ -1,0 +1,9 @@
+refactoring/NullCheckMethodVisitor.class
+refactoring/RefactoringTool.class
+nullcheckparser/NullCheckParser$NullCheckVisitor.class
+refactoring/AdvancedControlFlowAnalyzer.class
+nullcheckparser/example/YourJavaFile.class
+nullcheckparser/NullCheckParser.class
+nullcheckparser/NullCheckParser$MethodAnnotationVisitor.class
+nullcheckparser/NullCheckPerformed.class
+nullcheckparser/example/ModifiedYourJavaFile.class
